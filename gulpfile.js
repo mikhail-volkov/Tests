@@ -7,8 +7,8 @@ const less = require('gulp-less');
 const rename = require('gulp-rename');
 
 const styleFiles = [
+   './src/css/main.less',
    './src/css/color.less',
-   './src/css/main.less'
 ]
 const scriptFiles = [
    './src/js/lib.js',
